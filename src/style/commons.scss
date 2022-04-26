@@ -6,16 +6,17 @@
 li 
 {
     list-style: none;
-}
-
-a
+    a
 {
     text-decoration: none;
-    color: black;
+    color: #262628;
 
     &:hover
     {
         color: black;
     }
 } 
+}
+
+
 @import "~bootstrap/scss/bootstrap";

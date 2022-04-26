@@ -1,13 +1,13 @@
 <template>
   <header class="container">
     <div class="row">
-      <div class="col-10 d-flex justify-content-start">
+      <div class="menu-sx col-10 d-flex justify-content-start">
         <li v-for="(element, i) in menuSx" :key="i" class="m-3">
           <a href="#">{{ element }}</a>
         </li>
       </div>
 
-      <div class="col-2 d-flex justify-content-between align-items-center">
+      <div class="col-2 d-flex justify-content-between align-items-center social">
         <span><i class="fa-brands fa-facebook"></i></span>
         <span><i class="fa-brands fa-instagram"></i></span>
         <span><i class="fa-brands fa-twitter"></i></span>
@@ -45,6 +45,16 @@ export default {
 </script>
 
 <style lang="scss">
+.menu-sx {
+    a{
+  color: #afafaf;
+ 
+  }
+ 
+}
+  .social{
+    color: #afafaf;
+  }
 li {
   font-size: 14px;
 }
