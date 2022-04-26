@@ -7,25 +7,25 @@
       </div>
     </div>
     <div class="pick">
-      <h5 class="text-uppercase ">today's pick</h5>
+      <h5 class="text-uppercase">today's pick</h5>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  nome: "jumboTron",
+  name: "jumboTron",
 };
 </script>
 
 <style lang="scss" scoped >
 .jumboTron {
   background-image: url("../assets/img/single-post-img3-1200x790.jpg");
- padding: 220px;
+  padding: 220px;
   background-position: center;
   background-size: cover;
   position: relative;
-  
+
   .pick {
     position: absolute;
     background-color: #fc7525;
@@ -40,10 +40,9 @@ export default {
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    .date{
-        color: #979c9c;
+    .date {
+      color: #979c9c;
     }
-
   }
 }
 </style>
