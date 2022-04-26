@@ -1,5 +1,5 @@
 <template>
-  <JumboTron />
+  <JumboTron class="d-flex justify-content-center align-items-center text-center" />
 </template>
 
 <script>
@@ -10,6 +10,6 @@ name:"mainComp"
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
