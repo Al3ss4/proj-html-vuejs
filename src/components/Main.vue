@@ -6,6 +6,7 @@
  
   <FoodieJournal/>
   <PopularRecipes />
+  <CucinaryCollection/>
   </main>
 </template>
 
@@ -13,6 +14,7 @@
 import JumboTron from "./JumboTron.vue";
 import FoodieJournal from "@/components/FoodieJournal.vue";
 import PopularRecipes from "./PopularRecipes.vue";
+import CucinaryCollection from "./CucinaryCollection.vue"
 
 export default {
  
@@ -20,7 +22,8 @@ export default {
    components: {
     JumboTron,
     FoodieJournal,
-    PopularRecipes
+    PopularRecipes,
+    CucinaryCollection
   },
     
 };

@@ -43,6 +43,6 @@ export default {
   border-radius: 0rem;
   color: white;
   max-width: 150px;
-  margin-bottom: 40stpx;
+  margin-bottom: 40px;
 }
 </style>
