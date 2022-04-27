@@ -1,15 +1,15 @@
 <template>
-  <div class="container ar">
+  <div class="container ar-FJ">
     <div class="row">
       <h3 class="text-center text-uppercase mb-5">foodie journal</h3>
       <div class="d-flex">
         <CardComp
-          v-for="(poster, i) in posters"
+          v-for="(card, i) in cards"
           :key="i"
-          :imgC="poster.imgPos"
-          :txtC="poster.textPos"
-          :idC="poster.idPos"
-          :monthC="poster.monthPos"
+          :imgC="card.imgPos"
+          :txtC="card.textPos"
+          :idC="card.idPos"
+          :monthC="card.monthPos"
         />
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      posters: [
+      cards: [
         {
           imgPos: "single-post-img3-200x132",
           textPos: "Food Corner: Top Japanese Restaurants for Sushi",
@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ar {
+.ar-FJ {
   position: absolute;
   top: 600px;
   right: 290px;

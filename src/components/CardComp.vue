@@ -31,11 +31,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
   .h4{
   font-size: 1.4rem;
+  
 }
 .date{
   font-size: 0.8rem;
+  
 }
 
 

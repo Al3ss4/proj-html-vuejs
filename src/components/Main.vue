@@ -5,12 +5,14 @@
   />
  
   <FoodieJournal/>
+  <PopularRecipes />
   </main>
 </template>
 
 <script>
 import JumboTron from "./JumboTron.vue";
 import FoodieJournal from "@/components/FoodieJournal.vue";
+import PopularRecipes from "./PopularRecipes.vue";
 
 export default {
  
@@ -18,6 +20,7 @@ export default {
    components: {
     JumboTron,
     FoodieJournal,
+    PopularRecipes
   },
     
 };
@@ -25,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 main{
-  position: relative;
-
+position: relative;
+background-color: #f0eeeb;
 }
 </style>
