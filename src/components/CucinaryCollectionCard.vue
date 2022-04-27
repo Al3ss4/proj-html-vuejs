@@ -22,8 +22,8 @@ export default {
 <style lang="scss" scoped>
 .card-ar{
     background-color: white;
-    margin:30px;
-    padding: 32px;
+    margin:20px;
+   padding: 20px 45px;
   
     
 }

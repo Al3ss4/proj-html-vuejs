@@ -9,7 +9,7 @@
       <p class="text-center fst-italic grey">
         lacus non nunc lacinia lobortis.
       </p>
-      <div class="col-12 d-flex justify-content-center flex-wrap">
+      <div class="col-12 d-flex flex-wrap">
         <CucinaryCollectionCard
           v-for="(icon, i) in icons"
           :key="i"

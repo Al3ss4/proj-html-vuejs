@@ -7,6 +7,7 @@
   <FoodieJournal/>
   <PopularRecipes />
   <CucinaryCollection/>
+  <FarmToTable/>
   </main>
 </template>
 
@@ -14,7 +15,8 @@
 import JumboTron from "./JumboTron.vue";
 import FoodieJournal from "@/components/FoodieJournal.vue";
 import PopularRecipes from "./PopularRecipes.vue";
-import CucinaryCollection from "./CucinaryCollection.vue"
+import CucinaryCollection from "./CucinaryCollection.vue";
+import FarmToTable from "./FarmToTable.vue"
 
 export default {
  
@@ -23,7 +25,8 @@ export default {
     JumboTron,
     FoodieJournal,
     PopularRecipes,
-    CucinaryCollection
+    CucinaryCollection,
+    FarmToTable
   },
     
 };
