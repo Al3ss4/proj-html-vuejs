@@ -1,13 +1,14 @@
 <template>
   <div class="container mt-3">
     <div class="row">
-      <div class="col-4 m-ar">
+      <div class="col-5 m-ar">
         <h4 class="orange">Follow Us</h4>
-        <div class="d-flex justify-content-between social mt-4">
+        <div class="d-flex justify-content-between social mt-4 px-1">
           <span><i class="fa-brands fa-facebook"></i></span>
           <span><i class="fa-brands fa-instagram"></i></span>
           <span><i class="fa-brands fa-twitter"></i></span>
           <span><i class="fa-brands fa-youtube"></i></span>
+          <span><i class="fab fa-pinterest-p"></i></span>
         </div>
       </div>
     </div>

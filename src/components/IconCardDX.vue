@@ -29,7 +29,8 @@ export default {
 
 <style lang="scss" scoped>
 img {
-  width: 90px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .h4 {

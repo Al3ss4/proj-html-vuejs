@@ -29,8 +29,8 @@
         />
         <div class="d-flex flex-wrap">
           <CardCollectionSX
-            v-for="(element, i) in elements"
-            :key="i"
+            v-for="(element, index) in elements"
+            :key="index"
             :imgCCSX="element.imgCSX"
             :txtCCSX="element.textCSX"
             :idCCSX="element.idCSX"
@@ -38,16 +38,19 @@
             class="mt-5 img-sx"
           />
         </div>
+        <button type="button" class="btn btn-load text-uppercase mt-5 mb-5 p-3 fw-bold">
+          load more posts
+        </button>
       </div>
       <div class="col-4">
         <CardDXFarm
-          v-for="(poster, i) in posters"
-          :key="i"
+          v-for="(poster, j) in posters"
+          :key="j"
           :imgDX="poster.imgDX"
         />
         <CardLocation
-          v-for="(location, i) in locations"
-          :key="i"
+          v-for="(location, y) in locations"
+          :key="y"
           :imgLocation="location.imgloc"
         />
         <input
@@ -58,8 +61,8 @@
         />
         <SocialDX />
         <IconCardDX
-          v-for="(icon, i) in icons"
-          :key="i"
+          v-for="(icon, l) in icons"
+          :key="l"
           :imgIconDX="icon.imgIDX"
           :ttlIconDX="icon.ttlIDX"
           :dateIconDX="icon.dateIDX"
@@ -188,5 +191,11 @@ export default {
 }
 .img-sx {
   width: 50%;
+}
+.btn-load{
+  width: 100%;
+  background-color: #e2e0e0;
+  color: black;
+  border-radius: 0rem;
 }
 </style>
