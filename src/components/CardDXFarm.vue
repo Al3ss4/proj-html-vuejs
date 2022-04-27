@@ -1,10 +1,17 @@
 <template>
-  <div></div>
+<img
+    :src="require('@/assets/img/' + imgDX + '.jpg')"
+    :alt="imgDX"
+    class=" mt-3 w-100"
+  />
 </template>
 
 <script>
 export default {
-name:"dxCardFarm"
+name:"dxCardFarm",
+props:{
+  imgDX: String,
+}
 }
 </script>
 
