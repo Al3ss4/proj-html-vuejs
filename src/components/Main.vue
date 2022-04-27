@@ -3,7 +3,8 @@
   <JumboTron
     class="d-flex justify-content-center align-items-center text-center"
   />
-  <FoodieJournal />
+ 
+  <FoodieJournal/>
   </main>
 </template>
 
@@ -18,8 +19,13 @@ export default {
     JumboTron,
     FoodieJournal,
   },
+    
 };
 </script>
 
 <style lang="scss" scoped>
+main{
+  position: relative;
+
+}
 </style>
