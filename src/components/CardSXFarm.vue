@@ -6,7 +6,7 @@
         :alt="imgSX"
         class="mt-3 w-100"
       />
-      <div class="card">
+   
         <h3 class="h4 mt-5 mx-5">{{ ttlSX }}</h3>
         <span class="fst-italic mx-5">{{ idSX }} {{dateSX}}</span>
         <p class="p-5">{{ txtSX }}</p>
@@ -14,14 +14,14 @@
           <p>Read More ></p>
           <span><i class="fa-brands fa-rocketchat"></i></span>
         </div>
-      </div>
+      
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "sxCardFarm",
+  name: "iconCardSX",
   props: {
     imgSX: String,
     ttlSX: String,

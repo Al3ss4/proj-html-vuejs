@@ -27,7 +27,7 @@
           :dateSX="item.dateCardSX"
           :txtSX="item.textCardSX"
         />
-        <div>
+        <div class="d-flex flex-wrap">
           <CardCollectionSX
             v-for="(element, i) in elements"
             :key="i"
@@ -35,12 +35,36 @@
             :txtCCSX="element.textCSX"
             :idCCSX="element.idCSX"
             :monthCCSX="element.monthCSX"
-            class="mt-5"
+            class="mt-5 img-sx"
           />
         </div>
       </div>
       <div class="col-4">
-        <CardDXFarm  v-for="(poster, i) in posters" :key="i" :imgDX="poster.imgDX"/>
+        <CardDXFarm
+          v-for="(poster, i) in posters"
+          :key="i"
+          :imgDX="poster.imgDX"
+        />
+        <CardLocation
+          v-for="(location, i) in locations"
+          :key="i"
+          :imgLocation="location.imgloc"
+        />
+        <input
+          type="text"
+          id="myInput"
+          placeholder="Search ..."
+          class="mt-5 search-bar"
+        />
+        <SocialDX />
+        <IconCardDX
+          v-for="(icon, i) in icons"
+          :key="i"
+          :imgIconDX="icon.imgIDX"
+          :ttlIconDX="icon.ttlIDX"
+          :dateIconDX="icon.dateIDX"
+        />
+        <TweetsDX/>
       </div>
     </div>
   </div>
@@ -50,12 +74,20 @@
 import CardSXFarm from "./CardSXFarm.vue";
 import CardDXFarm from "./CardDXFarm.vue";
 import CardCollectionSX from "./CardCollectionSX.vue";
+import CardLocation from "./CardLocation.vue";
+import SocialDX from "./socialDX.vue";
+import IconCardDX from "./IconCardDX.vue";
+import TweetsDX from "./TweetsDX.vue"
 export default {
   name: "farmToTable",
   components: {
     CardSXFarm,
     CardDXFarm,
     CardCollectionSX,
+    CardLocation,
+    SocialDX,
+    IconCardDX,
+    TweetsDX,
   },
   data() {
     return {
@@ -108,11 +140,33 @@ export default {
           monthCSX: "March | 25th,2019",
         },
       ],
-      posters:[
-          {
-              imgDX:"ad-bg",
-          }
-      ]
+      posters: [
+        {
+          imgDX: "ad-bg",
+        },
+      ],
+      locations: [
+        {
+          imgloc: "singapore-featured-image",
+        },
+      ],
+      icons: [
+        {
+          imgIDX: "single-post-img3-600x395",
+          ttlIDX: "Food Corner: Top Japanese Restaurants for Sushi",
+          dateIDX: "March 25th, 2019",
+        },
+        {
+          imgIDX: "singapore-featured-image-600x395",
+          ttlIDX: "City Guide: Singapore",
+          dateIDX: "February 27th, 2019",
+        },
+        {
+          imgIDX: "fi-organic-breakfast-600x395",
+          ttlIDX: "6 Nutritional Tips to Help Burn Body Fat",
+          dateIDX: "February 28th, 2018",
+        },
+      ],
     };
   },
 };
@@ -125,5 +179,14 @@ export default {
   color: white;
   width: 200px;
   height: 50px;
+}
+.search-bar {
+  margin-left: 64px;
+  width: 85%;
+  border: 1px solid #f0eeeb;
+  padding: 5px;
+}
+.img-sx {
+  width: 50%;
 }
 </style>
