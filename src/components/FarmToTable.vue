@@ -5,7 +5,7 @@
         <h4 class="text-uppercase mt-5">farm to table</h4>
         <p class="fst-italic mt-3 grey">
           Aliquam erat volutpat. Ut quis ligula a magna blandit
-          finibus.Suspendisse
+          finibus. Suspendisse
         </p>
         <p class="fst-italic">maximus lacus non nunc lacinia lobortis.</p>
       </div>

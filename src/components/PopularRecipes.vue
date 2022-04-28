@@ -4,7 +4,7 @@
       <h4 class="text-center text-uppercase">popular recipies</h4>
       <p class="text-center fst-italic mt-3 grey">
         Aliquam erat volutpat. Ut quis ligula a magna blandit
-        finibus.Suspendisse
+        finibus. Suspendisse
       </p>
       <p class="text-center fst-italic grey">
         lacus non nunc lacinia lobortis.

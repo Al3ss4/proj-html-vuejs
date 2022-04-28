@@ -40,7 +40,7 @@ export default {
         },
         {
           imgPos: "fi-toasts-200x132",
-          textPos: "Wht These Toasts with Tea are My New Favorite",
+          textPos: "Why These Toasts with Tea are My New Favorite",
           idPos: "By Emily Fields",
           monthPos: "March | 25th,2019",
         },
