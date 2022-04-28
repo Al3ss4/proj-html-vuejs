@@ -38,7 +38,7 @@ img {
     opacity: 0.8;
   }
   .btn-orange {
-  background-color: orangered;
+  background-color: #fc7525;;
   border-radius: 0rem;
   color: white;
   width: 85%;

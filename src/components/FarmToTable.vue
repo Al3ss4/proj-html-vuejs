@@ -177,7 +177,7 @@ export default {
 
 <style lang="scss" scoped>
 .btn-orange {
-  background-color: orangered;
+  background-color: #fc7525;;
   border-radius: 0rem;
   color: white;
   width: 200px;

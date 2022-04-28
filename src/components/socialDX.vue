@@ -33,9 +33,6 @@ export default {
 .m-ar {
   margin-left: 39px;
 }
-.orange {
-  color: orange;
-}
 .social {
   color: #afafaf;
 }

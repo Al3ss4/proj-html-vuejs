@@ -39,7 +39,7 @@ export default {
   
 }
 .btn-orange{
-  background-color: orangered;
+  background-color: #fc7525;;
   border-radius: 0rem;
   color: white;
   max-width: 150px;
