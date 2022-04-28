@@ -1,7 +1,9 @@
 <template>
-  <div class="container test-ar mt-5 mb-5">
+  <div class="container test-ar mt-4 mb-4">
     <div class="row">
-      <div class="d-flex justify-content-center">
+      <div class="d-flex col-4">
+      </div>
+      <div class="col-4 d-flex">
         <b-carousel
           id="carousel-1"
           v-model="slide"
@@ -16,9 +18,9 @@
           <b-carousel-slide>
             <template v-slot:img>
               <img
-                class="d-block img-fluid ciao"
+                class="d-block img-fluid w-100"
               
-                src="@/assets/img/Yogurt-Nan-200x132.jpg"
+                src="@/assets/img/Yogurt-Nan-800x527.jpg"
                 alt="image slot"
               />
             </template>
@@ -26,9 +28,9 @@
           <b-carousel-slide>
             <template v-slot:img>
               <img
-                class="d-block img-fluid ciao"
+                class="d-block img-fluid w-100"
                 
-                src="@/assets/img/Mixed-fruits-200x132.jpg"
+                src="@/assets/img/Mixed-fruits-800x527.jpg"
                 alt="image slot"
               />
             </template>
@@ -36,8 +38,8 @@
           <b-carousel-slide>
             <template v-slot:img>
               <img
-                class="d-block img-fluid ciao"
-                src="@/assets/img/r-rachel-park-366508-unsplash-min-200x132.jpg"
+                class="d-block img-fluid w-100"
+                src="@/assets/img/r-rachel-park-366508-unsplash-min-800x527.jpg"
                 alt="image slot"
               />
             </template>
@@ -45,8 +47,8 @@
           <b-carousel-slide>
             <template v-slot:img>
               <img
-                class="d-block img-fluid ciao"
-                src="@/assets/img/r-michelle-tsang-500721-unsplash-min-200x132.jpg"
+                class="d-block img-fluid w-100"
+                src="@/assets/img/r-michelle-tsang-500721-unsplash-min-800x527.jpg"
                 alt="image slot"
               />
             </template>
@@ -79,9 +81,7 @@ export default {
 
 <style lang="scss" scoped>
 .test-ar{
-    height: 600px;
+    height: 300px;
 }
-.ciao {
-  width: 500px;
-}
+
 </style>

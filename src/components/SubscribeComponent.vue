@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5 subscribe-sec p-5">
+  <div class="container-fluid mt-5 subscribe-sec">
     <div class="row">
       <div class="col-12 text-center mt-5">
         <h2>SubScribe <span class="orange">&</span> Receive A Free eBook</h2>
@@ -40,6 +40,7 @@ export default {
   background-image: url("@/assets/img/subscribe-sec-bg.png");
   background-position: center;
   background-size: cover;
+  padding: 100px;
 }
 .email-container {
   height: 50px;
