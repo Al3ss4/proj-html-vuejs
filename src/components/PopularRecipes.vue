@@ -19,11 +19,13 @@
           :txtCR="cardR.textCR"
         />
       </div>
-      <div class="col-6 p-r-poster">
+      <div class="col-6 p-r-poster d-flex flex-wrap">
         <PosterPopularRecipes
           v-for="(poster, i) in posters"
           :key="i"
           :imgPR="poster.imgP"
+          :txtPR="poster.txtP"
+          class="w-50"
         />
       </div>
     </div>
@@ -44,27 +46,35 @@ export default {
       posters: [
         {
           imgP: "Mixed-fruits-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "r-rachel-park-366508-unsplash-min-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "r-michelle-tsang-500721-unsplash-min-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "quick-summer-drink-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "r-maarten-van-den-heuvel-400626-unsplash-min-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "perfect-cosmopolitan-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "fi2x-6-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
         {
           imgP: "r-brooke-lark-96398-unsplash-min-460x295",
+          txtP: "Fruit Platter with Banana, Mango, Berries and Orange",
         },
       ],
       cardsR: [
