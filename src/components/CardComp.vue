@@ -48,6 +48,7 @@ export default {
     width: 100%;
     opacity: 0.8;
     height: 71%;
+    cursor: pointer;
     .link{
       width: 50px;
       height: 50px;

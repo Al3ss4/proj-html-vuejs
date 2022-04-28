@@ -33,10 +33,11 @@ export default {
   display: none;
   position: absolute;
   top: 200px;
-  right: 70px;
+  right: 15px;
   background-color: #fc7525;
-  width: 50%;
+  width: 90%;
   height: 20%;
+  cursor: pointer;
 }
 .card-ar:hover .hover-img {
   display: block;
