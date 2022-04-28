@@ -21,8 +21,8 @@
       </div>
     </div>
     <div>
-      <ul class="d-flex text-uppercase fw-bold justify-content-center">
-        <li v-for="(element, i) in menu" :key="i" class="m-3">
+      <ul class="d-flex fw-bold justify-content-between col-12 mt-3">
+        <li class="m-3 grid" v-for="(element, i) in menu" :key="i" :class="{'grid': element.menu === 'Home'}">
           <a href="#">{{ element }}</a>
         </li>
         <span class="my-3"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -41,6 +41,16 @@ export default {
       menuSx: ["Dowload App ", "Advertise with us"],
     };
   },
+  methods:{
+    style(i){
+      switch(i) {
+        case 'Home':
+          return{
+            backgroundColor:'grid'
+          }
+      }
+    }
+  }
 };
 </script>
 
@@ -57,5 +67,11 @@ export default {
   }
 li {
   font-size: 14px;
+
 }
+.grid{
+  color:red
+}
+
+
 </style> 
