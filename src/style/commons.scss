@@ -13,7 +13,9 @@ li
 
     &:hover
     {
-        color: black;
+        color: #fc7525;
+        text-decoration-line: underline;
+        text-underline-offset: 20px;
     }
 } 
 }
